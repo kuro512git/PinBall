@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2862164465260410512}
   - component: {fileID: 2862164465260410515}
   - component: {fileID: -5038522612044110675}
-  - component: {fileID: -6499259723457092832}
   m_Layer: 0
   m_Name: SmallStarPrefab
   m_TagString: SmallStarTag
@@ -106,17 +105,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9370a5ca1a2fed4584f34e5dca1ec86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-6499259723457092832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2862164465260410514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d98f761892a78bf4c81dba4d3a5b4221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
