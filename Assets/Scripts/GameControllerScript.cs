@@ -38,27 +38,5 @@ public class GameControllerScript : MonoBehaviour
         this.scoreText.GetComponent<Text>().text = "Score:" + score;
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        switch (tag)
-        {
-            case "SmallStarTag":
-                AddPoint(1);
-                break;
-            case "LargeStarTag":
-                AddPoint(4);
-                break;
-            case "SmallCloudTag":
-                AddPoint(2); ;
-                break;
-            case "LargeCloudTag":
-                AddPoint(7);
-                break;
-            default:
-                //AddPoint(0);
-                break;
-        }
-        Debug.Log(tag);
-    }
 
 }
